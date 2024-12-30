@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { FolderKanban, User2, Mail } from 'lucide-react'
+import { User2, Mail, Folders } from 'lucide-react'
 import { ModeToggle } from '@/components/mode-toggle'
 import AnimatedBackground from '@/components/ui/animated-background'
 import { IconFileCv, IconHomeHeart, } from '@tabler/icons-react'
@@ -14,8 +14,8 @@ const MainNavbar = () => {
     },
     {
       label: 'Projects',
-      icon: <FolderKanban className="w-5 h-5 stroke-[1.5]" />,
-      href: '/'
+      icon: <Folders className="w-5 h-5 stroke-[1.5]" />,
+      href: '/showcase'
     },
     {
       label: 'Resume',

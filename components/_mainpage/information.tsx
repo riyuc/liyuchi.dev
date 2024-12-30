@@ -61,7 +61,7 @@ const workExperience: TimelineItem[] = [
       'Core Product Development'
     ],
     logo: Armonia,
-    website: 'https://coveo.com',
+    website: 'https://www.armoniaservices.com/',
     additional: [
       'Won 4th place in the Pierre-Péladeau entrepreneurial competition, against 50+ entrepreneurial teams, winning $25,000.',
       'Led the refactor of core products to Next.js, TypeScript, Express.js, eliminating the companyʼs reliance on external development teams.',

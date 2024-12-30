@@ -27,11 +27,11 @@ export const Label = ({
         href && "hover:opacity-75 transition-all",
         className
       )}
-      {...(href ? { href, target: "_blank", rel: "noopener noreferrer" } : {})}
+      {...(href ? { href, target: "_blank"} : {})}
       {...props}
     >
       {children}
-      {title && <p className="text-black dark:text-custom-offwhite">{title}</p>}
+      {title && <p className="text-zinc-950 font-normal dark:text-custom-offwhite">{title}</p>}
     </Wrapper>
   );
 };

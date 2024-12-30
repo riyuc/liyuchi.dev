@@ -4,9 +4,7 @@ import React, { useState } from 'react'
 import pfp from "@/public/pfp.jpg"
 import Image from 'next/image'
 import { TextMorph } from '@/components/ui/text-morph';
-import { Button } from '../ui/button';
-import Label from '../ui/label';
-import { IconBrandGithub, IconBrandLinkedin, IconBriefcase2 } from '@tabler/icons-react';
+import { Button } from '@/components/ui/button';
 
 const MainHero = () => {
     const [text, setText] = useState('Jason');
@@ -35,35 +33,12 @@ const MainHero = () => {
                 <p className='sm:-mt-2 mt-11 max-w-md text-center sm:text-left'>
                     Software Engineer. Learning to be a builder, brick by brick.
                     <br/>
-                    Software Engineer.
+                    Incoming SWE @ <a href="https://www.ibm.com/ca-en" target="_blank">IBM</a>. Currently @ <a href="https://intactlab.ca/" target="_blank">Intact Labs</a>.
                     <br/>
-                    Studying CS @ Concordia University.
+                    Studying CS @ <a href="https://www.concordia.ca/" target="_blank">Concordia University</a>.
                     <br/>
                 </p>
             </div>
-        </div>
-        <div className='grid md:grid-cols-3 grid-cols-2 gap-3'>
-            <Label
-                as="a"
-                href="https://intactlab.ca/"
-                title='@Intact Labs'
-            >
-                <IconBriefcase2 className='h-6 w-6'/>
-            </Label>
-            <Label 
-                as="a"
-                href="https://www.linkedin.com/in/ducanhnguyen0"
-                title='LinkedIn'
-            >
-                <IconBrandLinkedin className='h-6 w-6'/>
-            </Label>
-            <Label
-                as="a"
-                href="https://github.com/riyuc"
-                title='GitHub'
-            >
-                <IconBrandGithub className='h-6 w-6'/>
-            </Label>
         </div>
     </>
   )
