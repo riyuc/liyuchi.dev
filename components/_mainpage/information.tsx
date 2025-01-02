@@ -1,12 +1,12 @@
 import React from 'react'
 import { IconBriefcase, IconBriefcase2, IconSchool } from '@tabler/icons-react'
 import { TimelineItem } from '@/types/types'
-import IntactLab from '@/public/intact_lab.png'
-import Concordia from '@/public/concordia.png'
-import IBM from '@/public/ibm.png'
-import RBC from '@/public/rbc.png'
-import Coveo from '@/public/coveo.png'
-import Armonia from '@/public/armonia.svg'
+import IntactLab from '@/public/companies/intact_lab.png'
+import Concordia from '@/public/school/concordia.png'
+import IBM from '@/public/companies/ibm.png'
+import RBC from '@/public/companies/rbc.png'
+import Coveo from '@/public/companies/coveo.png'
+import Armonia from '@/public/companies/armonia.svg'
 import TitleLayout from '../title-layout'
 
 const workExperience: TimelineItem[] = [

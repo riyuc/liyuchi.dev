@@ -31,7 +31,7 @@ const MainNavbar = () => {
 
   return (
       <nav className='flex items-center justify-between w-full'>
-        <Link href="mailto:ducanh.nguyen.swe@gmail.com" className='nav-item invisible sm:visible p-0 flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border border-input bg-background- shadow-sm hover:text-accent-foreground h-8 w-8 sm:h-9 sm:w-9 transition-colors duration-300 hover:bg-primary/10 dark:hover:bg-primary/10 rounded-full'>
+        <Link href="mailto:ducanh.nguyen.swe@gmail.com" className='nav-item invisible sm:visible p-0 flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border border-input bg-background- shadow-sm hover:text-accent-foreground h-8 w-8 sm:h-10 sm:w-10 transition-colors duration-300 hover:bg-primary/10 dark:hover:bg-primary/10 rounded-full'>
             <Mail className="w-3.5 h-3.5 sm:w-5 sm:h-5 stroke-[1.5] text-zinc-500 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition-colors" />
         </Link>
         <div className='flex gap-6 sm:gap-3 p-2 sm:p-1.5 border border-zinc-200 dark:border-white/50 rounded-full bg-zinc-100/80 dark:bg-white/10 backdrop-blur'>

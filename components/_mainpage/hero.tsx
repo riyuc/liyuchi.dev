@@ -5,12 +5,13 @@ import pfp from "@/public/pfp.jpg"
 import Image from 'next/image'
 import { TextMorph } from '@/components/ui/text-morph';
 import { Button } from '@/components/ui/button';
+import ChatWithMe from '../chat-with-me';
 
 const MainHero = () => {
     const [text, setText] = useState('Jason');
 
   return (
-    <>
+    <div className='flex flex-col items-center justify-center gap-4'>
         <div className='flex flex-col sm:flex-row items-center justify-center gap-8 sm:gap-10'>
             <Image loading='eager' src={pfp} alt="pfp" className='h-24 sm:h-36 w-auto rounded-full bg-stone-400/30 dark:bg-custom-offwhite p-1'/>
             <div className='sm:grid sm:grid-rows-2 sm:justify-between sm:items-start text-center sm:text-left flex flex-row justify-center'>
@@ -28,6 +29,11 @@ const MainHero = () => {
                         {text}
                     </TextMorph>
                     Nguyen
+                    {text === 'Duc Anh' && (
+                        <div className="text-xs text-muted-foreground absolute sm:relative -mb-6 italic">
+                            (&quot;duke ann newyen&quot;)
+                        </div>
+                    )}
                 </Button>
                 <div className='invisible'></div>
                 <p className='sm:-mt-2 mt-11 max-w-md text-center sm:text-left'>
@@ -35,12 +41,13 @@ const MainHero = () => {
                     <br/>
                     Incoming SWE @ <a href="https://www.ibm.com/ca-en" target="_blank">IBM</a>. Currently @ <a href="https://intactlab.ca/" target="_blank">Intact Labs</a>.
                     <br/>
-                    Studying CS @ <a href="https://www.concordia.ca/" target="_blank">Concordia University</a>.
+                    Studying CS @ Concordia University.
                     <br/>
                 </p>
             </div>
         </div>
-    </>
+        <ChatWithMe />
+    </div>
   )
 }
 
