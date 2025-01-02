@@ -39,7 +39,7 @@ const workExperience: TimelineItem[] = [
   {
     title: 'Software Engineer Intern',
     company: 'RBC',
-    duration: 'Jan 2024 - Present',
+    duration: 'May 2024 - Jan 2025',
     description: [
       'DevOps - Helios Engineering'
     ],
